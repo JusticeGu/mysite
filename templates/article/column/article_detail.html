@@ -11,7 +11,7 @@
     <div>
      <header>
     <h1>{{ article.title }}</h1>
-         <p><a href="{{ article.get_url_path }}">文章ID：{{ article.id }}</a></p>
+         <p><a href="{{ article.get_url_path}}">文章ID：{{ article.id }}</a></p>
     <p class="list-group-item-text">作  者:<a href="{% url 'article:author_articles' article.author.username %}">{{article.author.username}}
     </a>
    <span class="label label-default"> <span style="margin-left:20px" class="glyphicon glyphicon-thumbs-up">
