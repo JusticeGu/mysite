@@ -10,7 +10,7 @@
 #define Main_hpp
 
 #include <stdio.h>
-#verify 测试
+# GPG verify 测试
 
 
 
