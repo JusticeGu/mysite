@@ -26,6 +26,4 @@ urlpatterns = [
 
     path('article-tag/',views.article_tag,name = "article_tag"),
     path('del-article-tag/', views.del_article_tag, name="del_article_tag"),
-
-
 ]
