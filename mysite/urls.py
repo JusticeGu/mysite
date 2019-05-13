@@ -39,6 +39,7 @@ urlpatterns = [
       path('image/',include('image.urls',namespace="image")),
       path(r'about/$',TemplateView.as_view(template_name="course/about.html"))
 
+
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
