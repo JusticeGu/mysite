@@ -147,9 +147,10 @@ EMAIL_PORT = 465
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = "noreply@q7w.cn"
 
-REDIS_HOST = 'localhost'
+REDIS_HOST = '39.106.153.174'
 REDIS_PORT = 6379
 REDIS_DB = 0
+REDIS_PW ='www12345'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')

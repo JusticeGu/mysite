@@ -49,7 +49,7 @@ class ArticlePost(models.Model):
         return reverse("article:article_detail", args=[self.id, self.slug])
 
     def get_url_path(self):
-        return reverse("article:list_article_detail", args=[self.id, self.slug])
+        return reverse("article:article_content", args=[self.id, self.slug])
 
 class Comment(models.Model):
     article = models.ForeignKey(ArticlePost,on_delete=models.CASCADE,related_name="comments")
