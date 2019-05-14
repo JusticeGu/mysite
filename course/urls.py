@@ -10,4 +10,5 @@ app_name = "course"
 
 urlpatterns = [
     path('about/', TemplateView.as_view(template_name="course/about.html")),
+
      ]
