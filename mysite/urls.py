@@ -36,8 +36,9 @@ urlpatterns = [
       #path('refresh_captcha/', views.refresh_captcha)
       path('article/', include('article.urls', namespace='article')),
       path('home/',TemplateView.as_view(template_name="home.html"),name='home'),
-      path('image/',include('image.urls',namespace="image")),
-      path(r'about/$',TemplateView.as_view(template_name="course/about.html"))
+      path('image/', include('image.urls', namespace='image')),
+      path('course/', include('course.urls', namespace='course')),
+      #path(r'about/$',TemplateView.as_view(template_name="course/about.html"))
 
 
 ]
