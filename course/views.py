@@ -3,7 +3,7 @@ from django.views.generic import TemplateView,ListView
 from django.views.generic import TemplateView, ListView
 from django.views.generic.edit import CreateView, DeleteView
 from django.views.generic.base import TemplateResponseMixin
-from .models import Course,Lesson
+#from .models import Course,Lesson
 from .forms import CreateCourseForm, CreateLessonForm
 
 from django.contrib.auth.models import User

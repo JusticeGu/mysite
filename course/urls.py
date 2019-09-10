@@ -1,6 +1,6 @@
 from django.urls import path
 from django.views.generic import TemplateView
-from .views import AboutView, CourseListView, ManageCourseListView, CreateCourseView, DeleteCourseView, CreateLessonView, ListLessonsView, DetailLessonView, StudentListLessonView
+from .views import AboutView, CourseListView
 
 app_name = "course"
 urlpatterns = [
